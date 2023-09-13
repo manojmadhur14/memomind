@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.memomind"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.NFC" />
+11-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:5:5-62
+11-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:5:22-59
+12
+13    <uses-feature
+13-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:6:5-81
+14        android:name="android.hardware.nfc"
+14-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:6:19-54
+15        android:required="true" />
+15-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:6:55-78
+16
+17    <uses-permission android:name="android.permission.SET_ALARM" />
+17-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:7:5-68
+17-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:7:22-65
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.memomind.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.memomind.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:10:5-35:19
+26        android:allowBackup="true"
+26-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] /Users/manojmadhur/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:12:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:13:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:14:9-43
+33        android:label="@string/app_name"
+33-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:15:9-41
+34        android:supportsRtl="true"
+34-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:16:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.MemoMind" >
+36-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:17:9-46
+37        <activity
+37-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:19:9-25:20
+38            android:name="com.example.memomind.MainActivity"
+38-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:19:19-47
+39            android:exported="true" >
+39-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:20:13-36
+40            <intent-filter>
+40-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:21:13-24:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:22:17-69
+41-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:22:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:23:17-77
+43-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:23:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:26:9-28:40
+47            android:name="com.example.memomind.FinalActivity"
+47-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:27:13-42
+48            android:exported="false" />
+48-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:28:13-37
+49
+50        <receiver
+50-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:29:9-34:20
+51            android:name="com.example.memomind.AlarmReceiver"
+51-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:29:19-48
+52            android:exported="false" >
+52-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:30:13-37
+53            <intent-filter>
+53-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:31:13-33:29
+54                <action android:name="com.example.myapp.ALARM_ACTION" />
+54-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:32:17-73
+54-->/Users/manojmadhur/Documents/MM/Academics/Thesis/App/Git/MemoMind/app/src/main/AndroidManifest.xml:32:25-70
+55            </intent-filter>
+56        </receiver>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="com.example.memomind.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/manojmadhur/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/manojmadhur/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/manojmadhur/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/manojmadhur/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
