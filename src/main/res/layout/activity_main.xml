@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textMemomind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memomind"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/task1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textMemomind"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextTask1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Add task"
+            />
+
+        <Button
+            android:id="@+id/buttonTimePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/task2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/task1Layout"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextTask2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Add task"
+            />
+
+        <Button
+            android:id="@+id/buttonTimePicker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/task3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/task2Layout"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextTask3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Add task"
+            />
+
+        <Button
+            android:id="@+id/buttonTimePicker3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="8dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/task4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/task3Layout"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextTask4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Add task"
+            />
+
+        <Button
+            android:id="@+id/buttonTimePicker4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="8dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/task5Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/task4Layout"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextTask5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Add task"
+            />
+
+        <Button
+            android:id="@+id/buttonTimePicker5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginLeft="8dp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/task5Layout"
+        android:layout_marginTop="24dp"
+        />
+
+</RelativeLayout>
